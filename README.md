@@ -55,6 +55,6 @@ yarn start
 
 # Key Integration Spots
 
-| File                       | Description                                                                                                                      |
-|----------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| [migrate.ts](./migrate.ts) | Iterates through the `Person` table records using a cursor and tokenizes senstive data columns `ssn`, `email` and `phoneNumber`. |
+| File                       | Description                                                                                                                       |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| [migrate.ts](./migrate.ts) | Iterates through the `Person` table records using a cursor and tokenizes sensitive data columns `ssn`, `email` and `phoneNumber`. |
