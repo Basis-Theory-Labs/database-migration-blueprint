@@ -56,7 +56,7 @@ function createPhoneNumberTokenPayload(data: string) {
     type: "token",
     id: "{{ data | alias_preserve_format }}",
     data,
-    mask: "{{ data | reveal_last: 3 }}",
+    mask: "{{ data | reveal_last: 4 }}",
     containers: ["/pii/high/"],
     privacy: {
       classification: "pii",

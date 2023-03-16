@@ -12,7 +12,7 @@ async function main() {
       ),
       email: faker.internet.email().toLowerCase(),
       name: faker.name.fullName(),
-      phoneNumber: faker.phone.number("###-###-###"),
+      phoneNumber: faker.phone.number("###-###-####"),
       birthDate: faker.date.birthdate().toISOString(),
     })),
   });
